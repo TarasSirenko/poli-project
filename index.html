@@ -278,28 +278,32 @@
         <!------------------- ОТЗЫВЫ---------------------------------------->
         <section class="reviews">
             <div class="container">
-                <h2 class="title"><span class="title-accent">Видеоотзывы</span>от клиентов</h2>
-                <div class="slider">
-                    <button type="button" class="slider__button">
-                        <svg class="icon" width=24px height=24px>
-                            <use href="./images/sprite.svg#icon-left" class="social-list__icon"></use>
-                        </svg>
-                    </button>
-                    <button type="button" class="slider__button">
-                        <svg class="icon" width=24px height=24px>
-                            <use href="./images/sprite.svg#icon-right" class="social-list__icon"></use>
-                        </svg>
-                    </button>
+                <div class="slider-wraper">
+                    <h2 class="title"><span class="title-accent">Видеоотзывы</span>от клиентов</h2>
+                    <div class="slider">
+                        <button type="button" class="slider__button">
+                            <svg class="icon" width=24px height=24px>
+                                <use href="./images/sprite.svg#icon-left" class="social-list__icon"></use>
+                            </svg>
+                        </button>
+                        <button type="button" class="slider__button">
+                            <svg class="icon" width=24px height=24px>
+                                <use href="./images/sprite.svg#icon-right" class="social-list__icon"></use>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
                 
-                <div class="reviews__left"></div>
-                <div class="reviews__right">
-                    <h3 class="reviews__title">Пётр Ковтун</h3>
-                    <p class="reviews__text">Руководитель компании Opti Taxi.</p>
-                    <p class="reviews__text"><b class="reviews__text-accent">Результат сотрудничества:</b>За время работы в
-                        командном коучинге: прибыль компании выросла на 17%; валовый доход Opti taxi увеличился на 30% за счёт
-                        привлечения новых водителей; водители-партнёры стали лояльнее относится к компании; вышли на рынок Польши.
-                    </p>
+                <div class="reviews__bottom-wraper">
+                    <div class="reviews__left"></div>
+                    <div class="reviews__right">
+                        <h3 class="reviews__title">Пётр Ковтун</h3>
+                        <p class="reviews__text">Руководитель компании Opti Taxi.</p>
+                        <p class="reviews__text reviews__text--end"><b class="reviews__text-accent">Результат сотрудничества:</b> За время работы в
+                            командном коучинге: прибыль компании выросла на 17%; валовый доход Opti taxi увеличился на 30% за счёт
+                            привлечения новых водителей; водители-партнёры стали лояльнее относится к компании; вышли на рынок Польши.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -308,51 +312,58 @@
         <!------------------- БЛОГ---------------------------------------->
         <section class="blog">
             <div class="container">
-                <h2 class="title">мой<span class="title-accent">блог</span></h2>
-                <div class="slider">
-                    <button type="button" class="slider__button">
-                        <svg class="icon" width=24px height=24px>
-                            <use href="./images/sprite.svg#icon-left" class="social-list__icon"></use>
-                        </svg>
-                    </button>
-                    <button type="button" class="slider__button">
-                        <svg class="icon" width=24px height=24px>
-                            <use href="./images/sprite.svg#icon-right" class="social-list__icon"></use>
-                        </svg>
-                    </button>
+                <div class="slider-wraper">
+                    <h2 class="title">мой<span class="title-accent">блог</span></h2>
+                    <div class="slider">
+                        <button type="button" class="slider__button">
+                            <svg class="icon" width=24px height=24px>
+                                <use href="./images/sprite.svg#icon-left" class="social-list__icon"></use>
+                            </svg>
+                        </button>
+                        <button type="button" class="slider__button">
+                            <svg class="icon" width=24px height=24px>
+                                <use href="./images/sprite.svg#icon-right" class="social-list__icon"></use>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
                 <div class="articles">
                     <ul class="articles__list">
                         <li class="articles__item">
                             <article class="article">
                                 <a href="" class="article__link">
-                                    <img src="./images/jpg/image 14.jpg" alt="" width="378px" height="290px" class="article__img">
-                                    <h3 class="article__title">Ценности компании</h3>
-                                    <p class="article__text">Для чего нужны корпоративные ценности?</p>
-                                    <p class="article__date">23.03.2021</p>
-                                </a>
-                            </article>
-                
-                        </li>
-                        <li class="articles__item">
-                            <article class="article">
-                                <a href="" class="article__link">
-                                    <img src="./images/jpg/image 15.jpg" alt="" width="378px" height="290px" class="article__img">
-                                    <h3 class="article__title">Воронка подбора персонала</h3>
-                                    <p class="article__text">Для чего нужны корпоративные ценности?</p>
-                                    <p class="article__date">23.03.2021</p>
+                                    <img src="./images/jpg/image 14.jpg" alt="" width="387px" height="290px" class="article__img">
+                                    <div class="article__text-wraper">
+                                        <h3 class="article__title">Ценности компании</h3>
+                                        <p class="article__text">Для чего нужны корпоративные ценности?</p>
+                                        <p class="article__date">23.03.2021</p>
+                                    </div>
                                 </a>
                             </article>
                         </li>
                         <li class="articles__item">
                             <article class="article">
                                 <a href="" class="article__link">
-                                    <img src="./images/jpg/image 16.jpg" alt="" width="378px" height="290px" class="article__img">
-                                    <h3 class="article__title">Как поддерживать мотивацию сотрудников во время карантина</h3>
-                                    <p class="article__text">Сегодня рассмотрим несколько факторов, которые помогут не только поддержать
-                                        мотивацию ваших сотрудников, а и повысить её
-                                        эффективность в несколько раз.</p>
-                                    <p class="article__date">23.03.2021</p>
+                                    <img src="./images/jpg/image 15.jpg" alt="" width="387px" height="290px" class="article__img">
+                                    <div class="article__text-wraper">
+                                        <h3 class="article__title">Воронка подбора персонала</h3>
+                                        <p class="article__text">Для чего нужны корпоративные ценности?</p>
+                                        <p class="article__date">23.03.2021</p>
+                                    </div>                                  
+                                </a>
+                            </article>
+                        </li>
+                        <li class="articles__item">
+                            <article class="article">
+                                <a href="" class="article__link">
+                                    <img src="./images/jpg/image 16.jpg" alt="" width="387px" height="290px" class="article__img">
+                                    <div class="article__text-wraper">
+                                        <h3 class="article__title">Как поддерживать мотивацию сотрудников во время карантина</h3>
+                                        <p class="article__text">Сегодня рассмотрим несколько факторов, которые помогут не только поддержать
+                                            мотивацию ваших сотрудников, а и повысить её
+                                            эффективность в несколько раз.</p>
+                                        <p class="article__date">23.03.2021</p>
+                                    </div>                                   
                                 </a>
                             </article>
                         </li>
@@ -364,22 +375,41 @@
         <!-------------------конец  БЛОГ---------------------------------------->
     </main>
     <!------------------- ФУТЕР---------------------------------------->
-    <footer>
-        <div class="container">
+    <footer class="footer">
+        <div class="container footer-container">
             <div class="social-footer">
-                <span class="logo logo--footer">Logo</span>
+                <a class="logo-link logo-link--footer ">
+                    <svg class="icon" width=73px height=18px>
+                        <use href="./images/sprite.svg#icon-logo" class="logo__icon logo__icon--footer"></use>
+                    </svg>
+                </a>
                 <ul class="social-list social-list--footer">
-                    <li class="social-list__item"><a href="" class="social-list__link"></a></li>
-                    <li class="social-list__item"><a href="" class="social-list__link"></a></li>
-                    <li class="social-list__item"><a href="" class="social-list__link"></a></li>
-                    <li class="social-list__item"><a href="" class="social-list__link"></a></li>
+                    <li class="social-list__item social-list__item--footer"><a href="" class="social-list__link social-list__link--footer">
+                            <svg class="icon" width=24px height=24px>
+                                <use href="./images/sprite.svg#icon-instagram" class="social-list__icon social-list__icon--footer"></use>
+                            </svg>
+                        </a></li>
+                    <li class="social-list__item social-list__item--footer"><a href="" class="social-list__link social-list__link--footer">
+                            <svg class="icon" width=24px height=24px>
+                                <use href="./images/sprite.svg#icon-telegram" class="social-list__icon social-list__icon--footer"></use>
+                            </svg>
+                        </a></li>
+                    <li class="social-list__item social-list__item--footer"><a href="" class="social-list__link social-list__link--footer">
+                            <svg class="icon" width=24px height=24px>
+                                <use href="./images/sprite.svg#icon-whatsapp" class="social-list__icon social-list__icon--footer"></use>
+                            </svg>
+                        </a></li>
+                    <li class="social-list__item social-list__item--footer"><a href="" class="social-list__link social-list__link--footer">
+                            <svg class="icon" width=24px height=24px>
+                                <use href="./images/sprite.svg#icon-YOUTUBE" class="social-list__icon social-list__icon--footer"></use>
+                            </svg>
+                        </a></li>
                 </ul>
             </div>
             <div class="services-footer">
-                <h3 class="services-footer__title">Услуги</h3>
+                <h3 class="footer__title">Услуги</h3>
                 <ul class="services-footer__list">
-                    <li class="services-footer__item"><a href="" class="services-footer__link">Коучинг собственников бизнеса</a>
-                    </li>
+                    <li class="services-footer__item"><a href="" class="services-footer__link">Коучинг собственников бизнеса</a></li>
                     <li class="services-footer__item"><a href="" class="services-footer__link">Стратегические сессии</a></li>
                     <li class="services-footer__item"><a href="" class="services-footer__link">Командные тренинги</a></li>
                     <li class="services-footer__item"><a href="" class="services-footer__link">Коучинг команд</a></li>
@@ -388,21 +418,22 @@
             </div>
             <div class="footer-menu">
                 <ul class="footer-menu__list">
-                    <li class="footer-menu__item"><a href="" class="footer-menu__link">ОБО МНЕ</a></li>
-                    <li class="footer-menu__item"><a href="" class="footer-menu__link">КЛИЕНТЫ</a></li>
-                    <li class="footer-menu__item"><a href="" class="footer-menu__link">БЛОГ</a></li>
+                    <li class="footer-menu__item"><a href="" class="footer-menu__link footer__title">ОБО МНЕ</a></li>
+                    <li class="footer-menu__item"><a href="" class="footer-menu__link footer__title">КЛИЕНТЫ</a></li>
+                    <li class="footer-menu__item"><a href="" class="footer-menu__link footer__title">БЛОГ</a></li>
                 </ul>
             </div>
             <div class="footer-contacts">
+                <h3 class="footer__title">контакты</h3>
                 <address>
                     <ul class="footer-contacts__list">
                         <li class="footer-contacts__item"><a href="mailto:syomochkin@gmail.com" class="footer-contacts__link">
-                                <svg class="icon" width=15px height=15px>
+                                <svg class="footer-contacts__icon" width=15px height=15px>
                                     <use href="./images/sprite.svg#icon-mail" class="social-list__icon"></use>
                                 </svg>
                                 syomochkin@gmail.com</a></li>
                         <li class="footer-contacts__item"><a href="tel:+380977571189" class="footer-contacts__link">
-                                <svg class="icon" width=15px height=15px>
+                                <svg class="footer-contacts__icon" width=15px height=15px>
                                     <use href="./images/sprite.svg#icon-Call" class="social-list__icon"></use>
                                 </svg>
                                 +38 (097) 757-11-89</a></li>
